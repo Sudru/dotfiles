@@ -11,7 +11,7 @@ return {
 		local neotree = require("neo-tree")
 		neotree.setup({
 			window = {
-				position = "left",
+				position = "right",
 				width = 30,
 				mappings = {
 					["P"] = { "toggle_preview", config = { use_float = false, use_image_nvim = true } },
