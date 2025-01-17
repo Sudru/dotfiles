@@ -9,7 +9,8 @@ function ricing_dependency() {
   sudo pacman -S grim --noconfirm
   sudo pacman -S slurp --noconfirm
   sudo pacman -S waybar --noconfirm
-  sudo pacman -S dunst --noconfirm
+  # sudo pacman -S dunst --noconfirm
+  sudo pacman -S mako --noconfirm
   sudo pacman -S alacritty --noconfirm
   sudo pacman -S hyprpaper --noconfirm
   sudo pacman -S wofi --noconfirm
@@ -46,6 +47,7 @@ function basic_apps() {
   sudo pacman -S xdg-desktop-portal-hyprland --noconfirm
   sudo pacman -S polkit-kde-agent
   sudo pacman -S bat --noconfirm
+  sudo pacman -S flameshot --noconfirm
 }
 # cliphist-wofi-img
 #
