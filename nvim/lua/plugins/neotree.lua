@@ -15,6 +15,7 @@ return {
 				width = 30,
 				mappings = {
 					["P"] = { "toggle_preview", config = { use_float = false, use_image_nvim = true } },
+					["<C-b>"] = "toggle",
 				},
 			},
 		})
